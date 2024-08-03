@@ -1,4 +1,12 @@
 # 第二周实验感想
+
+## MLP
+
+## CNN
+
+
+
+
 ## 大模型的部署
 
 ### 使用平台：
@@ -71,3 +79,12 @@ print(os.listdir(model_path))
 然后点击开始代理，就会弹出网站然后直接进去，可能存在1、2中的问题，但是修改完以后就可以了：
 
 ![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/success.png)
+
+左侧的 max_length 是指模型生成文本的最大长度限制：
+
+![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/modify.png)
+
+但是这个好像不太对劲啊:(
+
+## 大模型微调
+
