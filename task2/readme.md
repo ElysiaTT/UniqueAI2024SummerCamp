@@ -2,7 +2,7 @@
 ## 大模型的部署
 
 ### 使用平台：
-modelscope（失败）、autodl（成功）
+modelscope（失败）、autodl nvidia 4090（成功）
 
 ### 参考文献：
 
@@ -49,11 +49,17 @@ model_path = '/root/autodl-tmp/qwen/Qwen1___5-7B-Chat-GPTQ-Int4'
 print(os.listdir(model_path))  
 ```
 **3.没有把端口映射到本地**
-刚开始我是不理解这句话的：“在终端中运行以下命令，启动streamlit服务，并按照 autodl 的指示将端口映射到本地，然后在浏览器中打开链接 http://localhost:6006/ ，即可看到聊天界面。”
+开始时终端会返回一个url如下
+![返回值](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/return.png)
+但是直接点进去没有web界面，会失败：
+![失敗する ](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/fail.png)
 
-直到我把大模型的事情放在一边，学习ai绘画时看到这个文章https://blog.csdn.net/bossma/article/details/132022385知道这个网站需要在autodl内映射出来才行。
+我回看教程时，我是不理解这句话的：“在终端中运行以下命令，启动streamlit服务，并按照 autodl 的指示将端口映射到本地，然后在浏览器中打开链接 http://localhost:6006/ ，即可看到聊天界面。”
+
+直到我把大模型的事情放在一边，学习ai绘画时看到这个文章：https://blog.csdn.net/bossma/article/details/132022385知道这个网站需要在autodl内映射出来才行。
 
 首先要根据文章点击autodl上快捷工具栏内的自定义服务。
 
 但是这个时候的界面与文章中的又不一样，他显示的要打开他所说的界面下载一个autodl ssh隧道工具，打开后是这样的：
 ![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/autodl_ssh.png)
+然后点击开始代理，就会弹出网站然后直接进去，可能存在1、2中的问题，但是修改完以后就可以了
