@@ -61,5 +61,11 @@ print(os.listdir(model_path))
 首先要根据文章点击autodl上快捷工具栏内的自定义服务。
 
 但是这个时候的界面与文章中的又不一样，他显示的要打开他所说的界面下载一个autodl ssh隧道工具，打开后是这样的：
+
 ![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/autodl_ssh.png)
-然后点击开始代理，就会弹出网站然后直接进去，可能存在1、2中的问题，但是修改完以后就可以了
+
+里面的ssh指令与密码在autodl控制界面可以看到：
+
+![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/autodl_password.png)
+
+然后点击开始代理，就会弹出网站然后直接进去，可能存在1、2中的问题，但是修改完以后就可以了：
