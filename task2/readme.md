@@ -66,6 +66,8 @@ print(os.listdir(model_path))
 
 里面的ssh指令与密码在autodl控制界面可以看到：
 
-![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/autodl_password.png)
+![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/password.png)
 
 然后点击开始代理，就会弹出网站然后直接进去，可能存在1、2中的问题，但是修改完以后就可以了：
+
+![ssh工具](https://github.com/ElysiaTT/UniqueAI2024SummerCamp/blob/main/task2/success.png)
